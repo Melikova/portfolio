@@ -14,15 +14,36 @@ var burgerMenu = function () {
     $('.nav-toggle').on('click', function (event) {
         event.preventDefault();
         var $this = $(this);
-        if ($('body').hasClass('offcanvas')) {
+        if ($('body').hasClass('off_canvas')) {
             $this.removeClass('active');
-            $('body').removeClass('offcanvas');
+            $('body').removeClass('off_canvas');
         }
         else {
             $this.addClass('active');
-            $('body').addClass('offcanvas');
+            $('body').addClass('off_canvas');
         }
     });
 };
 
 burgerMenu();
+
+// Click outside of offcanvass
+var mobileMenuOutsideClick = function () {
+    $(document).click(function (e) {
+        var container = $("#side-menu, .nav-toggle");
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+            if ($('body').hasClass('off_canvas')) {
+                $('body').removeClass('off_canvas');
+                $('.nav-toggle').removeClass('active');
+            }
+        }
+    });
+    $(window).scroll(function () {
+        if ($('body').hasClass('off_canvas')) {
+            $('body').removeClass('off_canvas');
+            $('.nav-toggle').removeClass('active');
+        }
+    });
+};
+
+mobileMenuOutsideClick();
