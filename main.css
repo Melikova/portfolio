@@ -196,7 +196,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
 }
 #side-menu .logo a span {
   display: block;
-  margin-top: 0px;
+  margin-top: 10px;
   text-align: center;
   font-size: 16px;
   text-transform: uppercase;
@@ -420,7 +420,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   font-size: 45px;
   color: #fff;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
   letter-spacing: 0px;
   line-height: normal;
@@ -430,7 +430,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   line-height: 1.75em;
   color: #fff;
   font-family: "Rambla", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
 }
 #main #home .text .text-inner .arrow {
@@ -474,6 +474,68 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   line-height: 40px;
   color: #fff;
   font-size: 20px;
+}
+
+#skills {
+  background: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#skills .heading-meta {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+#skills .heading {
+  color: #101010;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#skills .skills-text p {
+  font-family: "Rambla", sans-serif;
+  line-height: 1.75em;
+  font-weight: 400;
+  color: #888;
+  margin: 0 0 20px;
+  font-size: 15px;
+}
+#skills .skills-bar .bar-title {
+  position: relative;
+  font-size: 15px;
+  text-align: left;
+  margin: 0 0 5px 0;
+  color: #101010;
+  font-family: "Rambla", sans-serif;
+  line-height: 1.75em;
+  font-weight: 400;
+}
+#skills .skills-bar .bar-title .percent {
+  position: absolute;
+  right: 0;
+}
+#skills .skills-bar .bar {
+  position: relative;
+  height: 3px;
+  margin: 0 0 15px 0;
+  background-color: #ececec;
+}
+#skills .skills-bar .bar .bar-fill {
+  position: absolute;
+  height: 3px;
+  background-color: #101010;
+  animation: bar-fill-developer 2s ease-out;
+  -moz-animation: bar-fill-developer 2s ease-out;
+  -webkit-animation: bar-fill-developer 2s ease-out;
 }
 
 #footer {

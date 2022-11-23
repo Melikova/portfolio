@@ -47,3 +47,9 @@ var mobileMenuOutsideClick = function () {
 };
 
 mobileMenuOutsideClick();
+
+// skills data percent
+let skills=document.getElementsByClassName('bar-fill');
+[...skills].forEach(element => {
+    element.style.width=element.getAttribute('data-fill')+"%";
+});
