@@ -314,12 +314,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
     width: 100%;
   }
 }
-#main .section {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-}
 #main #home {
   position: relative;
 }
@@ -480,6 +474,64 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   line-height: 40px;
   color: #fff;
   font-size: 20px;
+}
+
+#footer {
+  padding: 120px 60px;
+  background: #101010;
+}
+#footer .copyright {
+  text-align: center;
+  font-size: 14px;
+  line-height: 2em;
+  color: #fff;
+  font-family: "Rambla", sans-serif;
+  margin: 0 0 20px;
+}
+#footer h2 {
+  line-height: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center !important;
+}
+#footer h2 span {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+#footer .social {
+  text-align: center;
+}
+#footer .social ul {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+  margin-bottom: 10px;
+}
+#footer .social ul li {
+  display: inline;
+  margin: 0 5px;
+}
+#footer .social ul li a {
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  font-size: 15px;
+  position: relative;
+  text-decoration: none;
+  color: #101010;
+  background-color: transparent;
+}
+#footer .social ul li a i {
+  color: #fff;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */
