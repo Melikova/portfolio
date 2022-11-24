@@ -475,15 +475,14 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   color: #fff;
   font-size: 20px;
 }
-
-#skills {
+#main #skills {
   background: #f7f7f7;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-right: 30px;
   padding-left: 30px;
 }
-#skills .heading-meta {
+#main #skills .heading-meta {
   display: block;
   font-family: "Oswald", sans-serif;
   font-size: 12px;
@@ -491,8 +490,9 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   color: #888;
   font-weight: 400;
   letter-spacing: 5px;
+  margin-bottom: 15px;
 }
-#skills .heading {
+#main #skills .heading {
   color: #101010;
   font-family: "Oswald", sans-serif;
   margin-bottom: 30px;
@@ -501,7 +501,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-#skills .skills-text p {
+#main #skills .skills-text p {
   font-family: "Rambla", sans-serif;
   line-height: 1.75em;
   font-weight: 400;
@@ -509,7 +509,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   margin: 0 0 20px;
   font-size: 15px;
 }
-#skills .skills-bar .bar-title {
+#main #skills .skills-bar .bar-title {
   position: relative;
   font-size: 15px;
   text-align: left;
@@ -519,17 +519,17 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   line-height: 1.75em;
   font-weight: 400;
 }
-#skills .skills-bar .bar-title .percent {
+#main #skills .skills-bar .bar-title .percent {
   position: absolute;
   right: 0;
 }
-#skills .skills-bar .bar {
+#main #skills .skills-bar .bar {
   position: relative;
   height: 3px;
   margin: 0 0 15px 0;
   background-color: #ececec;
 }
-#skills .skills-bar .bar .bar-fill {
+#main #skills .skills-bar .bar .bar-fill {
   position: absolute;
   height: 3px;
   background-color: #101010;
@@ -537,12 +537,97 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   -moz-animation: bar-fill-developer 2s ease-out;
   -webkit-animation: bar-fill-developer 2s ease-out;
 }
-
-#footer {
+#main #certificates {
+  background: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#main #certificates .heading-meta {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+#main #certificates .heading {
+  color: #101010;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#main #blog {
+  background: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#main #blog .heading-meta {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+#main #blog .heading {
+  color: #101010;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#main #contact {
+  background: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#main #contact .heading-meta {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+#main #contact .heading {
+  color: #101010;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#main #contact .contact-text p {
+  font-family: "Rambla", sans-serif;
+  line-height: 1.75em;
+  font-weight: 400;
+  color: #888;
+  margin: 0 0 20px;
+  font-size: 15px;
+}
+#main #footer {
   padding: 120px 60px;
   background: #101010;
 }
-#footer .copyright {
+#main #footer .copyright {
   text-align: center;
   font-size: 14px;
   line-height: 2em;
@@ -550,7 +635,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   font-family: "Rambla", sans-serif;
   margin: 0 0 20px;
 }
-#footer h2 {
+#main #footer h2 {
   line-height: 30px;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
@@ -560,7 +645,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   letter-spacing: 3px;
   text-align: center !important;
 }
-#footer h2 span {
+#main #footer h2 span {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
@@ -568,21 +653,21 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   letter-spacing: 3px;
   font-size: 13px;
 }
-#footer .social {
+#main #footer .social {
   text-align: center;
 }
-#footer .social ul {
+#main #footer .social ul {
   list-style: none;
   display: inline;
   margin-left: 0 !important;
   padding: 0;
   margin-bottom: 10px;
 }
-#footer .social ul li {
+#main #footer .social ul li {
   display: inline;
   margin: 0 5px;
 }
-#footer .social ul li a {
+#main #footer .social ul li a {
   display: inline-block;
   margin: 0 auto 0 auto;
   font-size: 15px;
@@ -591,7 +676,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   color: #101010;
   background-color: transparent;
 }
-#footer .social ul li a i {
+#main #footer .social ul li a i {
   color: #fff;
   font-size: 14px;
 }
