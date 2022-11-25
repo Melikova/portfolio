@@ -600,6 +600,20 @@ body{
       letter-spacing: 3px;
       text-transform: uppercase;
     }
+    .pagination{
+      li{
+        a{
+          background-color: transparent;
+          border: none;
+        }
+        &.active{
+          a{
+            color: #6c757d;
+            pointer-events: none;
+          }
+        }
+      }
+    }
   }
   #contact{
     background: #fff;

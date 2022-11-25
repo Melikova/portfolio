@@ -589,6 +589,14 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+#main #blog .pagination li a {
+  background-color: transparent;
+  border: none;
+}
+#main #blog .pagination li.active a {
+  color: #6c757d;
+  pointer-events: none;
+}
 #main #contact {
   background: #fff;
   padding-top: 60px;
