@@ -689,4 +689,16 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   font-size: 14px;
 }
 
+#blog-breadcrumb {
+  background: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#blog-text {
+  padding: 50px;
+}
+
 /*# sourceMappingURL=main.css.map */

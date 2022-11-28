@@ -150,8 +150,6 @@ body{
   }
 }
 
-
-
 #side-menu{
   width: 23%;
   @media screen and (max-width: 1200px)
@@ -708,5 +706,17 @@ body{
       }
     }
   }
+}
+
+#blog-breadcrumb{
+  background: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#blog-text{
+  padding: 50px;
 }
 
