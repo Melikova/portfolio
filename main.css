@@ -147,7 +147,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
 
 #side-menu {
   width: 23%;
-  padding: 60px 30px;
+  padding: 40px 30px 30px 30px;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -183,7 +183,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   font-size: 40px;
   line-height: 1em;
   text-transform: uppercase;
-  margin-bottom: 60px;
   display: block;
   width: 100%;
 }
@@ -204,6 +203,10 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   font-weight: 400;
   letter-spacing: 3px;
 }
+#side-menu .menu {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
 #side-menu .menu ul {
   text-align: left;
   margin: 0;
@@ -221,7 +224,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   list-style: none;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.75em;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-bottom: 1px solid #ececec;
@@ -253,10 +255,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   transform: scaleX(1);
 }
 #side-menu .footer {
-  position: absolute;
-  bottom: 20px;
-  right: 0;
-  left: 0;
   font-size: 15px;
   text-align: center;
   font-weight: 400;
