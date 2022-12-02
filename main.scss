@@ -375,7 +375,6 @@ body{
           -webkit-transform: translate3d(0, 40px, 0);
           transform: translate3d(0, 40px, 0);
         }
-      
         to {
           opacity: 1;
           -webkit-transform: none;
@@ -390,14 +389,12 @@ body{
           -webkit-transform: translate3d(0, 40px, 0);
           transform: translate3d(0, 40px, 0);
         }
-      
         to {
           opacity: 1;
           -webkit-transform: none;
           transform: none;
         }
       }
-
       .text-inner{
         display: table-cell;
         vertical-align: middle;
@@ -488,5 +485,9 @@ body{
         }
       }
     }
+  }
+  #footer {
+    padding: 120px;
+    background: #101010;
   }
 }

@@ -481,5 +481,9 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   color: #fff;
   font-size: 20px;
 }
+#main #footer {
+  padding: 120px;
+  background: #101010;
+}
 
 /*# sourceMappingURL=main.css.map */
