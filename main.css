@@ -147,7 +147,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
 
 #side-menu {
   width: 23%;
-  padding: 60px 30px;
+  padding: 40px 30px 30px 30px;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -183,7 +183,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   font-size: 40px;
   line-height: 1em;
   text-transform: uppercase;
-  margin-bottom: 60px;
   display: block;
   width: 100%;
 }
@@ -196,13 +195,17 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
 }
 #side-menu .logo a span {
   display: block;
-  margin-top: 0px;
+  margin-top: 10px;
   text-align: center;
   font-size: 16px;
   text-transform: uppercase;
   color: #888;
   font-weight: 400;
   letter-spacing: 3px;
+}
+#side-menu .menu {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 #side-menu .menu ul {
   text-align: left;
@@ -221,7 +224,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   list-style: none;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.75em;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-bottom: 1px solid #ececec;
@@ -253,10 +255,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   transform: scaleX(1);
 }
 #side-menu .footer {
-  position: absolute;
-  bottom: 20px;
-  right: 0;
-  left: 0;
   font-size: 15px;
   text-align: center;
   font-weight: 400;
@@ -313,12 +311,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   #main {
     width: 100%;
   }
-}
-#main .section {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
 }
 #main #home {
   position: relative;
@@ -426,7 +418,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   font-size: 45px;
   color: #fff;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
   letter-spacing: 0px;
   line-height: normal;
@@ -436,7 +428,7 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   line-height: 1.75em;
   color: #fff;
   font-family: "Rambla", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
 }
 #main #home .text .text-inner .arrow {
@@ -480,10 +472,6 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   line-height: 40px;
   color: #fff;
   font-size: 20px;
-}
-#main #footer {
-  padding: 120px;
-  background: #101010;
 }
 
 /*# sourceMappingURL=main.css.map */

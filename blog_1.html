@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehin Melikova</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <a class="nav-toggle" href="#"><i></i></a>
+    <div id="side-menu">
+        <div class="logo">
+            <a href="#">
+                <img src="logo.png" alt="">
+                <span>Mehin Melikova</span>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="#"><i class="bi bi-github"></i></a></li>
+                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            </ul>
+            <p>
+                <small>© 2022 All Rights Reserved</small>
+            </p>
+        </div>
+    </div>
+    <div id="main">
+        <div id="blog-breadcrumb">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">My Blog</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Smoke Testing: A QA Guide</li>
+                </ol>
+            </nav>
+        </div>
+        <div id="blog-text">
+            <h2>Smoke Testing: A QA Guide</h2>
+            <div class="my-5">
+                <p>Smoke Testing is a software testing process that determines whether the deployed software build is stable or not. Smoke testing is a confirmation for QA team to proceed with further software testing. It consists of a minimal set of tests run on each build to test software functionalities.</p>
+                <p>In layman’s words, smoke tests means verifying the important features are working and there are no showstoppers in the build that is under testing. It is a mini and rapid regression test of major functionality. It is a simple test that shows the product is ready for testing. This helps determine if the build is flawed as to make any further testing a waste of time and resources.</p>
+                <p>Smoke Testing is done whenever the new functionalities of software are developed and integrated with existing build that is deployed in QA/staging environment. It ensures that all critical functionalities are working correctly or not.</p>
+                <p>The main aim of smoke testing is to detect early major issues. If we don’t perform smoke testing in early stages, defects may be encountered in later stages where it can be costly. And the Defect found in later stages can be show stoppers where it may affect the release of deliverables.</p>
+            </div>
+            <div class="my-5">
+                <h4><i class="bi bi-layout-wtf me-3"></i>Characteristics of Smoke Testing:</h4>
+                <p>Following are the characteristics of the smoke testing</p>
+                <ul>
+                    <li>Smoke testing is documented.</li>
+                    <li>Smoke testing may be stable as well as unstable.</li>
+                    <li>Smoke testing is scripted.</li>
+                    <li>Smoke testing is a type of regression testing.</li>
+                </ul>
+                <p>Smoke Testing is usually carried out by quality assurance engineers. But it can be carried by developers too.</p>
+            </div>
+            <div class="my-5">
+                <h4><i class="bi bi-bullseye me-3"></i>Goal of Smoke Testing:</h4>
+                <p>The aim of Smoke Testing is:</p>
+                <ul>
+                    <li>To detect any early defects in a software product.</li>
+                    <li>To demonstrate system stability.</li>
+                    <li>To demonstrate conformance to requirements.</li>
+                    <li>To assure that the acute functionalities of the program are working fine.</li>
+                    <li>To measures the stability of the software product by performing testing.</li>
+                    <li>To test all over the function of the software product.</li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h4><i class="bi bi-braces-asterisk me-3"></i>Types of Smoke Testing:</h4>
+                <p>There are three types of Smoke Testing</p>
+                <ul>
+                    <li>
+                        <b>Manual Testing:</b> In general, smoke testing is done manually. It approaches varies from one organization to other.
+                    </li>
+                    <li>
+                        <b>Automated Testing:</b> Automation Testing is used for Regression Testing. Instead of having repeated test manually whenever the new software build is deployed, recorded smoke test cases are executed against the build. It verifies whether the major functionalities still operates properly. Using an automated tool, test engineer records all manual steps that are performed in the software build.
+                    </li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h4><i class="bi bi-bar-chart-steps me-3"></i>Applying Smoke Testing at different levels</h4>
+                <p>It is applicable at 3 levels of testing. They are</p>
+                <ul>
+                    <li>Acceptance Testing Level</li>
+                    <li>System Testing Level</li>
+                    <li>Integration testing Level</li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h4><i class="bi bi-tools me-3"></i>Tools used for Smoke Testing:</h4>
+                <ul>
+                    <li>Selenium - is mostly used by Testers for all types of testing processes</li>
+                    <li>PhantomJS - is used for unit testing and smoke testing processes before moving the code to the test environment</li>
+                </ul>
+                <p>These tools are used while implementing the automated test cases.</p>
+            </div>
+            <div class="my-5">
+                <h4><i class="bi bi-hand-thumbs-up me-3"></i>Advantages of Smoke Testing:</h4>
+                <ul>
+                    <li>Smoke testing is easy to perform.</li>
+                    <li>It helps in identifying defects in the early stages.</li>
+                    <li>It improves the quality of the system.</li>
+                    <li>Smoke testing reduces the risk of failure.</li>
+                    <li>Smoke testing makes progress easier to access.</li>
+                    <li>It saves test effort and time.</li>
+                    <li>It makes it easy to detect critical errors and helps in the correction of errors.</li>
+                    <li>It runs quickly.</li>
+                    <li>It minimizes integration risks.</li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h4><i class="bi bi-hand-thumbs-down me-3"></i>Disadvantages of Smoke Testing:</h4>
+                <ul>
+                    <li>Smoke Testing does not cover all the functionality in the application. Only a certain part of the testing is done.</li>
+                    <li>Errors may occur even after implementing all the smoke tests.</li>
+                    <li>In the case of manual smoke testing, it takes a lot of time to execute the testing process for larger projects.</li>
+                    <li>It will not be implemented against the negative tests or with the invalid input.</li>
+                    <li>It usually consists of a minimum number of test cases and hence we cannot find the other issues that happened during the testing process.</li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h4><i class="bi bi-arrow-repeat me-3"></i>Smoke testing cycle</h4>
+                <p><img src="blog_1.png" alt=""></p>
+            </div>
+            <div class="my-5">
+                <p><b>Example 1</b> − Logging window: Clicking the submit button allows you to go to the next window with a valid login and password.</p>
+                <p><b>Example 2</b> − A user seems unable to sign out of a website.</p>
+            </div>
+        </div>
+    </div>    
+
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

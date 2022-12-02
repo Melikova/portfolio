@@ -150,8 +150,6 @@ body{
   }
 }
 
-
-
 #side-menu{
   width: 23%;
   @media screen and (max-width: 1200px)
@@ -167,7 +165,7 @@ body{
     transform: translateX(-270px);
     padding-top: 4em;
 }
-  padding: 60px 30px;
+  padding: 40px 30px 30px 30px;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -186,7 +184,6 @@ body{
       font-size: 40px;
       line-height: 1em;
       text-transform: uppercase;
-      margin-bottom: 60px;
       display: block;
       width: 100%;
       a{
@@ -197,7 +194,7 @@ body{
         letter-spacing: 3px;
         span{
           display: block;
-          margin-top: 0px;
+          margin-top: 10px;
           text-align: center;
           font-size: 16px;
           text-transform: uppercase;
@@ -208,6 +205,8 @@ body{
       }
   }
   .menu{
+    margin-bottom: 50px;
+    margin-top: 50px;
     ul{
       text-align: left;
       margin: 0;
@@ -222,7 +221,7 @@ body{
         list-style: none;
         font-size: 14px;
         font-weight: 400;
-        line-height: 1.75em;
+        // line-height: 1.75em;
         text-transform: uppercase;
         letter-spacing: 2px;
         border-bottom: 1px solid #ececec;
@@ -256,10 +255,10 @@ body{
     }
   }
   .footer{
-    position: absolute;
-    bottom: 20px;
-    right: 0;
-    left: 0;
+    // position: absolute;
+    // bottom: 20px;
+    // right: 0;
+    // left: 0;
     font-size: 15px;
     text-align: center;
     font-weight: 400;
@@ -316,12 +315,6 @@ body{
   }
   float: right;
   transition: 0.5s;
-  .section{
-    width: 100%;
-    height: auto;
-    clear: both;
-    float: left;
-  }
   #home{
     position: relative;
     .overlay-video {
@@ -424,7 +417,7 @@ body{
             font-size: 45px;
             color: #fff;
             font-family: 'Oswald', sans-serif;
-            font-weight: 500;
+            font-weight: 400;
             margin: 0;
             letter-spacing: 0px;
             line-height: normal;
@@ -434,7 +427,7 @@ body{
             line-height: 1.75em;
             color: #fff;
             font-family: 'Rambla', sans-serif;
-            font-weight: 700;
+            font-weight: 500;
             margin: 0;
           }
         }
@@ -486,8 +479,5 @@ body{
       }
     }
   }
-  #footer {
-    padding: 120px;
-    background: #101010;
-  }
 }
+
