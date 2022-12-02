@@ -26,10 +26,6 @@ abstract class Action
         $this->logger = $logger;
     }
 
-    /**
-     * @throws HttpNotFoundException
-     * @throws HttpBadRequestException
-     */
     public function __invoke(Request $request, Response $response, array $args): Response
     {
         $this->request = $request;
@@ -43,24 +39,13 @@ abstract class Action
         }
     }
 
-    /**
-     * @throws DomainRecordNotFoundException
-     * @throws HttpBadRequestException
-     */
     abstract protected function action(): Response;
 
-    /**
-     * @return array|object
-     */
     protected function getFormData()
     {
         return $this->request->getParsedBody();
     }
 
-    /**
-     * @return mixed
-     * @throws HttpBadRequestException
-     */
     protected function resolveArg(string $name)
     {
         if (!isset($this->args[$name])) {
@@ -70,9 +55,6 @@ abstract class Action
         return $this->args[$name];
     }
 
-    /**
-     * @param array|object|null $data
-     */
     protected function respondWithData($data = null, int $statusCode = 200): Response
     {
         $payload = new ActionPayload($statusCode, $data);
