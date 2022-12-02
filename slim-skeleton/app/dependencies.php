@@ -26,5 +26,10 @@ return function (ContainerBuilder $containerBuilder) {
 
             return $logger;
         },
+        PDO::class => function(ContainerInterface $c){
+            $settings = $c->get(SettingsInterface::class);
+            $dbSettings = $settings->get();
+            return new \PDO("sqlite:database/slim.db");
+        }
     ]);
 };
