@@ -473,5 +473,230 @@ body.off_canvas #main, body.off_canvas .nav-toggle {
   color: #fff;
   font-size: 20px;
 }
+#main #skills {
+  background: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#main #skills .heading-meta {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+#main #skills .heading {
+  color: #101010;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#main #skills .skills-text p {
+  font-family: "Rambla", sans-serif;
+  line-height: 1.75em;
+  font-weight: 400;
+  color: #888;
+  margin: 0 0 20px;
+  font-size: 15px;
+}
+#main #skills .skills-bar .bar-title {
+  position: relative;
+  font-size: 15px;
+  text-align: left;
+  margin: 0 0 5px 0;
+  color: #101010;
+  font-family: "Rambla", sans-serif;
+  line-height: 1.75em;
+  font-weight: 400;
+}
+#main #skills .skills-bar .bar-title .percent {
+  position: absolute;
+  right: 0;
+}
+#main #skills .skills-bar .bar {
+  position: relative;
+  height: 3px;
+  margin: 0 0 15px 0;
+  background-color: #ececec;
+}
+#main #skills .skills-bar .bar .bar-fill {
+  position: absolute;
+  height: 3px;
+  background-color: #101010;
+  animation: bar-fill-developer 2s ease-out;
+  -moz-animation: bar-fill-developer 2s ease-out;
+  -webkit-animation: bar-fill-developer 2s ease-out;
+}
+#main #certificates {
+  background: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#main #certificates .heading-meta {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+#main #certificates .heading {
+  color: #101010;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#main #blog {
+  background: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#main #blog .heading-meta {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+#main #blog .heading {
+  color: #101010;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#main #blog .pagination li a {
+  background-color: transparent;
+  border: none;
+}
+#main #blog .pagination li.active a {
+  color: #6c757d;
+  pointer-events: none;
+}
+#main #contact {
+  background: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#main #contact .heading-meta {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+#main #contact .heading {
+  color: #101010;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#main #contact .contact-text p {
+  font-family: "Rambla", sans-serif;
+  line-height: 1.75em;
+  font-weight: 400;
+  color: #888;
+  margin: 0 0 20px;
+  font-size: 15px;
+}
+#main #footer {
+  padding: 120px 60px;
+  background: #101010;
+}
+#main #footer .copyright {
+  text-align: center;
+  font-size: 14px;
+  line-height: 2em;
+  color: #fff;
+  font-family: "Rambla", sans-serif;
+  margin: 0 0 20px;
+}
+#main #footer h2 {
+  line-height: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center !important;
+}
+#main #footer h2 span {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+#main #footer .social {
+  text-align: center;
+}
+#main #footer .social ul {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+  margin-bottom: 10px;
+}
+#main #footer .social ul li {
+  display: inline;
+  margin: 0 5px;
+}
+#main #footer .social ul li a {
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  font-size: 15px;
+  position: relative;
+  text-decoration: none;
+  color: #101010;
+  background-color: transparent;
+}
+#main #footer .social ul li a i {
+  color: #fff;
+  font-size: 14px;
+}
+
+#blog-breadcrumb {
+  background: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#blog-text {
+  padding: 50px;
+}
 
 /*# sourceMappingURL=main.css.map */
