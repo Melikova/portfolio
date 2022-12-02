@@ -24,14 +24,4 @@ return function (App $app) {
         $group->get('', ListUsersAction::class);
         $group->get('/{id}', ViewUserAction::class);
     });
-
-    $app->get('/db', function (Request $request, Response $response) {
-        $db = $this->get(PDO::class);
-        $sth = $db->prepare("SELECT * FROM blog ORDER BY ID");
-        $sth->execute();
-        $data = $sth->fetchAll(PDO::FETCH_ASSOC);
-        $payload = json_encode($data);
-        $response->getBody()->write($payload);
-        return $response->withHeader('Content-Type', 'application/json');
-    });
 };
